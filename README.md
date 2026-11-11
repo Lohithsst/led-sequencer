@@ -1,6 +1,6 @@
 # LED Sequencer
 
-An eight-LED sequencer for the ATmega328P on an Arduino Uno. It runs four light patterns and a two-player tug-of-war game, with knobs for speed and brightness. The ADC, Timer2 and the external interrupts are set up through the chip's registers directly.
+An eight-LED sequencer for the ATmega328P on an Arduino Uno. It runs four light patterns and a two-player tug-of-war game, with knobs for speed and brightness. The ADC, Timer2 and the external interrupts are set up through the chip's registers directly. Built as a school project.
 
 [Demo video](media/demo.mp4)
 
