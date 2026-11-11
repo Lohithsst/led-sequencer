@@ -2,7 +2,7 @@
 
 An eight-LED sequencer for the ATmega328P on an Arduino Uno. It runs four light patterns and a two-player tug-of-war game, with knobs for speed and brightness. The ADC, Timer2 and the external interrupts are set up through the chip's registers directly. Built as a school project.
 
-[Demo video](media/demo.mp4)
+https://github.com/user-attachments/assets/bc59856c-d406-49bc-87d8-b95b9e236c13
 
 ![Schematic](media/schematic.jpg)
 
@@ -43,7 +43,7 @@ Both buttons trigger on the falling edge and use the internal pull-ups. Each int
 
 ## Constraints
 
-The brief banned Arduino's I/O and interrupt functions apart from `delay()` and `millis()`, so the pins, ADC, timer and interrupts are all driven through registers. Inputs had to be push buttons, not DIP switches. Brightness control of one LED with hardware PWM and of several LEDs with timers were graded separately, which is why both PWM modes exist and a button switches between them.
+The brief banned Arduino's I/O and interrupt functions apart from `delay()` and `millis()`, so the pins, ADC, timer and interrupts are all driven through registers. Brightness control of one LED with hardware PWM and of several LEDs with timers were graded separately, which is why both PWM modes exist and a button switches between them.
 
 ## Hardware
 
